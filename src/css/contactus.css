@@ -1,0 +1,88 @@
+
+html body{font-family: arial;}
+
+#mySidenav{
+
+  background-image: url('image/narrow.png');
+
+
+}
+#mySidenav a{
+  color: white;
+
+}
+  #NAV{
+    background-color: #009688;
+    height: 60px;
+  }
+   #MenuButton{
+    background-color: #E6E6E6;
+    height: 80px;
+    width: 120px;
+    margin-left: -15px;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  #body{
+    background-color: #E6E5DF;
+  }
+  h1{
+    text-shadow: 2px 2px #9ba8a9;
+  }
+  .thumbnail{
+    background-color: #787676;
+  }
+  #ContactUs{
+    margin-top: 65px;
+    font-family: arial;
+    font-size: 50px;
+  }
+  #Name{
+    font-size: 15px;
+    margin-top: 55px;
+    width: 1000px;
+    height: 40px; 
+
+  }
+  #email{
+    font-size: 15px;
+    width: 1000px;
+    height: 40px; 
+  }
+  #Subject{
+    font-size: 15px;
+    width: 1000px;
+    height: 40px;
+  }
+  #SMS{
+    font-size: 15px;
+    width: 1000px;
+    height: 180px;
+  }
+  #Well{
+    background-color: #009688: 
+    margin-top: 70px;
+    height: 60px;
+  }
+
+  #SendBtn
+  { 
+    
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 950px;
+  }
+  #Telegram{
+    margin-left: 2px; 
+ }
+  #Facebook{
+    margin-left: 2px;
+  }
+  #Twitter{
+    margin-left: 620px;
+  }
+  #Google{
+    margin-right: 7px;
+  }
+
+

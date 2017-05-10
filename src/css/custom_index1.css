@@ -1,0 +1,8 @@
+a[role=button2]{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row-reverse wrap; /* Safari 6.1+ */
+    display: flex;
+    text-align: center;
+    margin-top: 7px;
+    margin-right: 7px;
+}

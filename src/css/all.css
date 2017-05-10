@@ -1,0 +1,60 @@
+  body, html {
+    
+    height: 100%;
+}
+
+    .parallax {
+    /* The image used */
+    background-image: url('../../image/back.png');
+    margin-top: 0px;
+    /*z-index: -1;*/
+
+
+     /* Full height */
+    height: 80%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .welcome{
+    padding-top: 40%;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+  }
+
+      .parallax1 {
+    /* The image used */
+    background-image: url('../../image/office.png');
+    margin-top: 0px;
+    z-index: -1;
+
+     /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+img
+{
+  opacity: 1;
+
+}
+img:hover
+{
+  opacity: 0.5;
+}
+
+
+footer{
+
+  margin-right: 10px;
+  margin-left: 10px;
+}

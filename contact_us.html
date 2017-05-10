@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="image/icon2.png">
+    <!-- <link rel="stylesheet" type="text/css" href="src/css/navbar-fixed-top.css"> -->
+
+    <link href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="libs/bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <script src="libs/bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- <link href="src/css/carousel.css" rel="stylesheet"> -->
+
+
+    <link rel="stylesheet" href="libs/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="libs/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css">
+ <script type="text/javascript" src="src/scripts/menubar.js"></script>
+<link rel="stylesheet" type="text/css" href="src/css/menubar.css">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/css/w3.css">
+  <link rel="stylesheet" href="src/css/contactus.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+   integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+   crossorigin=""/>
+
+<style>
+  #mySidenav{
+
+  background-image: url('image/narrow.png');
+}
+#mySidenav a{
+  color: white;
+
+}
+
+
+   body, html {
+    
+    height: 100%;
+}
+
+    .parallax {
+    /* The image used */
+    background-image: url('image/visitka1.png');
+    margin-top: 0px;
+    /*z-index: -1;*/
+
+
+     /* Full height */
+    height: 80%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .welcome{
+    padding-top: 40%;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+  }
+
+      .parallax1 {
+    /* The image used */
+    background-image: url('image/office.png');
+    margin-top: 0px;
+    z-index: -1;
+
+     /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+footer{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+</style>
+</head>
+<body>
+
+      <div class="navbar-wrapper">
+          <div class="container">
+          <nav class="navbar navbar-default navbar-fixed-top">
+
+             <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html">HOME</a>
+              <a href="projects.html">PROJECTS</a>
+              <a href="#">WINNERS</a>
+              <a href="news.html">NEWS</a>
+              <a href="#">CONTACT US</a>
+              <a href="submit.html">SUBMIT</a>
+          </div> 
+
+
+
+          <div class="col-md-4" style=" text-align: left; background-color: #009688;"><button class="w3-button w3-teal w3-xlarge" onclick="openNav()">☰ MENU</button></div>
+          <div class="col-md-4" style="background-color: #009688; text-align: center; height: 52px; padding-top: 10px; font-size: 25px; color: white;"><a href="index.html">PROJECTS.IUT.UZ</a></div>
+              <div class="col-md-4" style="text-align:right;background-color: #009688; "><button type="submit" class="w3-button w3-teal w3-xlarge" " onclick="openSub()">SUBMIT</button></div>
+
+              
+   
+            
+              </div> <!-- end of container-->
+          </nav>
+          </div>
+       </div>
+
+
+
+ <div class="parallax">
+   <!-- <p class="welcome">I am OdilJon<br>Welcome here you can see latest Projects!</p> -->
+
+ </div>
+
+
+
+<div id="main">
+<div class="container">
+  <center>
+  <h1 id="ContactUs">Contact Us</h1>
+  <h4> You are welcome to contact with us!</h4>
+
+<div class="form-group">
+  <input type="text" placeholder="Name" required="Need to fill this blank" class="form-control" id="Name">
+</div>
+<div class="form-group">
+  <input type="email" placeholder="Email" class="form-control" id="email">
+</div>
+
+<div class="form-group">
+  <input placeholder="Subject" class="form-control" id="Subject">
+</div>
+<div class="form-group">
+  <input type="Message" placeholder="Message" class="form-control" id="SMS">
+</div>
+</div>
+
+
+  </center>
+  <button id="SendBtn" type="button" onclick="w3_close()" class="btn btn-primary">Send</button>
+ <div>
+ <br>
+  <a href="https://www.twitter.com"><img href="asds" id="Twitter" src="image/Twitter.png" width="25" height="25"></a>
+  <a href="#"><img id="Facebook" src="image/Facebook.png" width="25" height="25"></a>
+  <a href="#"><img id="Telegram" src="image/Telegram.png" width="30" height="30"></a>
+  <a href="#"><img id="Google" src="image/GOOGLE.png" width="28" height="28"></a>
+   <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 INHA UNIVERSITY in TASHKENT,IUT. &middot; <a href="http://www.iutlab.uz">IUTLab</a> &middot; <a href="Contact_us.html">Contact</a>
+        </p>
+      </footer>
+      </div>
+      </div>
+<div class="parallax1"></div>
+
+  
+</div>
+</body>
+</html>

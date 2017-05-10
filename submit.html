@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="image/icon2.png">
+    <!-- <link rel="stylesheet" type="text/css" href="src/css/navbar-fixed-top.css"> -->
+
+    <link href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="libs/bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <script src="libs/bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- <link href="src/css/carousel.css" rel="stylesheet"> -->
+
+
+    <link rel="stylesheet" href="libs/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="libs/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css">
+  <script type="text/javascript" src="src/scripts/side-bar.js"></script>
+  <script src="../libs/node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src = "../src/scripts/adminLogic.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/css/w3.css">
+  <link rel="stylesheet" href="src/css/submit.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+   integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+   crossorigin=""/>
+
+<style>
+
+input:required:focus {
+  box-shadow: 0  0 3px rgba(255,0,0,0.5); 
+}
+   body, html {
+    
+    height: 100%;
+    padding-right: 10px;
+}
+
+    .parallax {
+    /* The image used */
+    background-image: url('image/visitka1.png');
+    margin-top: 0px;
+    /*z-index: -1;*/
+
+
+     /* Full height */
+    height: 80%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .welcome{
+    padding-top: 40%;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+  }
+
+      .parallax1 {
+    /* The image used */
+    background-image: url('image/office.png');
+    margin-top: 0px;
+    z-index: -1;
+
+     /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+footer{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+</style>
+</head>
+<body>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+        
+        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+          <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+          <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+          <a href="projects.html" class="w3-bar-item w3-button">PROJECTS</a>
+          <a href="winners.html" class="w3-bar-item w3-button">WINNERS</a>
+          <a href="news.html" class="w3-bar-item w3-button">NEWS</a>
+        <a href="#" class="w3-bar-item w3-button">CONTACT US</a>
+        <a href="submit.html" class="w3-bar-item w3-button">SUBMIT</a>
+      </div>
+
+      <div class="w3-teal">
+          <div class="col-md-4" style=" text-align: left; background-color: #009688;"><button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰ MENU</button></div>
+          <div class="col-md-4" style="background-color: #009688; text-align: center; height: 52px; font-size: 25px; padding-top: 10px; "><a href="index.html">PROJECTS.IUT.UZ</a></div>
+              <div class="col-md-4" style="text-align:right;background-color: #009688; "><button type="submit" class="w3-button w3-teal w3-xlarge" " onclick="openSub()">SUBMIT</button></div>
+        </div>
+
+ </div> <!-- end of container-->
+    </nav>
+    </div>
+    </div>
+
+
+ <div class="parallax">
+   <!-- <p class="welcome">I am OdilJon<br>Welcome here you can see latest Projects!</p> -->
+
+ </div>
+
+
+
+<div class="container">
+  <center>
+  <h1 id="ContactUs">Submit</h1>
+  <h4> Standard Sumbision</h4>
+  </center>
+<div class="w3-light-grey w3-round">
+  <div class="w3-container w3-round w3-blue" style="width:33%">Step1</div>
+</div>
+<h6 style="padding-left: 10%;display: inline;">LogIn or Register</h6>
+<h6 style="padding-left: 23%; display: inline;">Project Information</h6>
+<h6 style="padding-left: 23%; display: inline;">Review & Check out</h6>
+  
+ <form action="file.php" method ="post" enctype="multipart/form-data">
+  <div class="row">
+  <div class="col-md-4 col-xs-4"  style="text-align: right;">
+  <h4 style="padding-top: 10px;">Project Name: </h4>
+  <h4 style="padding-top: 10px;">Project Type: </h4> 
+  <h4 style="padding-top: 10px;">Description: </h4>
+  <h4 style="padding-top: 10px;">Categories: </h4> 
+  <h4 style="padding-top: 10px;">Created by: </h4>
+  <h4 style="padding-top: 10px;">Done by: </h4>    
+  <h4 style="padding-top: 10px;">URL: </h4>  
+
+  
+  </div>
+  <div class="col-md-8 col-xs-8">
+    <input type="text" style="margin-top: 10px;" class="form-control" name="username" placeholder="Name" required>
+    <input type="text" style="margin-top: 10px;" class="form-control" name="" placeholder="Type" required>
+    <input type="text" style="margin-top: 10px;" class="form-control" name="" placeholder="About project" required>
+    <input type="text" style="margin-top: 10px;" class="form-control" name="" placeholder="which category does it belong" required>
+    <input type="text" style="margin-top: 10px;" class="form-control" name="" placeholder="Team Name" required>
+    <input type="text" style="margin-top: 10px;" class="form-control" name="" placeholder="Team members" required>
+    <input type="text" style="margin-top: 10px;" class="form-control" name="" placeholder="give link to  your project">
+    <input style="padding-top: 10px;" type="file" name="pic" accept="image/*">
+  </div>
+</div>
+<br>
+<input type="submit" value="Submit"  style="float: right;" class="btn btn-primary">
+</form>
+<br>
+</div>
+   <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 INHA UNIVERSITY in TASHKENT,IUT. &middot; <a href="http://www.iutlab.uz">IUTLab</a> &middot; <a href="contact_us.html">Contact</a>
+        </p>
+      </footer>
+      </div>
+<div class="parallax1"></div>
+
+  
+</div>
+</body>
+</html>

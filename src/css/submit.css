@@ -1,0 +1,96 @@
+
+  #NAV{
+    background-color: #009688;
+    height: 60px;
+  }
+   #MenuButton{
+    background-color: #E6E6E6;
+    height: 80px;
+    width: 120px;
+    margin-left: -15px;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  #body{
+    background-color: #E6E5DF;
+  }
+  h1{
+    text-shadow: 2px 2px #9ba8a9;
+  }
+  .thumbnail{
+    background-color: #787676;
+  }
+  #ContactUs{
+    margin-top: 65px;
+    font-family: arial;
+    font-size: 50px;
+  }
+  #Name{
+    font-size: 15px;
+    margin-top: 55px;
+    width: 1000px;
+    height: 40px; 
+
+  }
+  #projectType{
+    font-size: 15px;
+    width: 1000px;
+    height: 40px; 
+  }
+  #Description{
+    font-size: 15px;
+    width: 1000px;
+    height: 40px;
+  }
+  #teamName{
+    font-size: 15px;
+    width: 1000px;
+    height: 40px;
+  }
+  #Categories{
+    font-size: 15px;
+    width: 1000px;
+    height: 40px;
+  }
+  #teamMembers{
+    font-size: 15px;
+    width: 1000px;
+    height: 40px;
+  }
+  #urlProject{
+    font-size: 15px;
+    width: 1000px;
+    height: 40px;
+  }
+  #SMS{
+    font-size: 15px;
+    width: 1000px;
+    height: 180px;
+  }
+  #Well{
+    background-color: #009688: 
+    margin-top: 70px;
+    height: 60px;
+  }
+
+  #SendBtn
+  { 
+    background-color: #009688;
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 950px;
+  }
+  #Telegram{
+    margin-left: 2px; 
+ }
+  #Facebook{
+    margin-left: 2px;
+  }
+  #Twitter{
+    margin-left: 620px;
+  }
+  #Google{
+    margin-right: 7px;
+  }
+
+
